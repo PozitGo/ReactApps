@@ -1,0 +1,42 @@
+.InputForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.InputForm>section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.InputForm>section>label {
+    padding-bottom: 5px;
+}
+
+.InputForm>section>input {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 30px;
+    background-color: #cdc5fc;
+}
+
+.InputForm>button {
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid;
+    background-color: #baaeff;
+    cursor: pointer;
+}
+
+@media (min-width:700px) {
+    .InputForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
